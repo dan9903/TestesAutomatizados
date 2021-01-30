@@ -1,0 +1,24 @@
+#language: en
+#encoding: UTF-8
+
+@login
+Feature: Access System
+
+   Background:
+      Given that I'm accessing the system
+      When I inform the user
+      And enter the password
+      Then the system presents the logged user
+
+   @EnterFielding
+   Scenario: Scenario 1
+      When I regsiter a user
+
+   Scenario: Scenario 2
+      When I edit a user
+
+   Scenario: Scenario 3
+      When I edit a user
+
+   Scenario: Scenario 4
+      When I edit a user
